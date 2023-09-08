@@ -1,0 +1,199 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --brand-color: #4D5AE5;
+    --button: #404BBF;
+    --button-light: #F4F4FD;
+    --background-dark: #2E2F42;
+    --background-white: #FFFFFF;
+    --text-dark: #2E2F42;
+    --text-gray: #434455;
+    --text-white: #F4F4FD;
+    --border: #E7E9FC;
+    
+}
+body {
+    font-family: var(--primary-font);
+    color: var(--text-dark);
+    background-color: var(--background-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+
+.top-line {width: 100%; height: 100%; background: white; border-bottom: 0.50px #E7E9FC solid}
+nav a {
+    color: var(--text-dark);
+  font-weight: 500;
+}
+address ul li a {
+    color: var(--text-gray);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.logo {
+    color: var(--brand-color);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1,67;
+    letter-spacing: 0.54px;
+    text-decoration: none;
+}
+.filter-btn-active {
+    width: 69px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--button);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    text-align: center;
+}
+.filter-btn-active a {
+    color: var(--text-white);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.filter-btn1 {
+    width: 116px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--button-light);
+    border-radius: 4px;
+    border: 0.50px var(--border) solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+.filter-btn1 a {
+    color: var(--brand-color);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.filter-btn1:hover, .filter-btn1:focus {
+    background: var(--button);
+}
+.filter-btn1 a:hover,.filter-btn1 a:focus {
+    color: var(--text-white);
+}
+
+.filter-btn2 {
+    width: 78px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--button-light);
+    border-radius: 4px;
+    border: 0.50px var(--border) solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+.filter-btn2 a {
+    color: var(--brand-color);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.filter-btn2:hover {
+    background: var(--button);
+}
+.filter-btn2 a:hover {
+    color: var(--text-white);
+}
+.filter-btn3 {
+    width: 101px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--button-light);
+    border-radius: 4px;
+    border: 0.50px var(--border) solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+.filter-btn3 a {
+    color: var(--brand-color);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.filter-btn3:hover {
+    background: var(--button);
+}
+.filter-btn3 a:hover {
+    color: var(--text-white);
+}
+.filter-btn4 {
+    width: 126px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--button-light);
+    border-radius: 4px;
+    border: 0.50px var(--border) solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+.filter-btn4 a {
+    color: var(--brand-color);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.filter-btn4:hover {
+    background: var(--button);
+}
+.filter-btn4 a:hover {
+    color: var(--text-white);
+}
+
+.card-name {
+    color: var(--text-dark);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.40px;
+}
+
+.card-text {color: var(--text-gray);}
+nav a .studio {
+    color: var(--text-dark);
+}
+footer a .studio {
+    color: var(--text-white);
+}
+footer p {
+    width: 274px;
+    height: 72px;
+    color: var(--text-white);}
+footer {width: 100%;
+    height: 100%;
+    background: var(--background-dark)}
+
+        ul,
+        ol {
+            list-style-type: none;
+        }
+    
+        ul a {
+            text-decoration: none;
+        }
