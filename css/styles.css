@@ -21,7 +21,7 @@ nav>.link, footer>.link {
     text-decoration: none;
 }
 nav .list .link {
-    color: var(--text);
+    color: var(--dark);
     font-weight: 500;
     list-style: none;
     text-decoration: none;
