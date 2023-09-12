@@ -10,7 +10,7 @@
     --accent: #E7E9FC;
 }
 
-.logo {
+nav>.link, footer>.link {
     color: var(--primary-brand);
     font-size: 18px;
     font-family: Raleway, sans-serif;
@@ -18,16 +18,17 @@
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.54px;
+    text-decoration: none;
 }
-nav .menu .link {
+nav .list .link {
+    color: var(--text);
     font-weight: 500;
     list-style: none;
     text-decoration: none;
 }
-.contacts-header .mail-tel .link {
+.contacts-header {font-style: normal}
+.contacts-header .list .link {
     color: var(--text);
-    font-style: normal;
-    list-style: none;
 }
 
 .hero {background-color: var(--dark)}
@@ -43,6 +44,8 @@ nav .menu .link {
 .hero-btn {
     background-color: var(--primary-brand);
     color: var(--white-background);
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
 }
@@ -103,24 +106,17 @@ footer .studio {
 .bottom-text {
     color: var(--light);
 }
-.bottom {width: 100%;
-    height: 312px;
-    background: var(--dark)}
+.bottom {background-color: var(--dark)}
 
-        a:hover,
-        a:focus,
-        a:active {
-            color: var(--pressed-state)
-        }
-
-ul, ol {
-    list-style-type: none;
-}
 .link {
     text-decoration: none;
 }
-a {
-    text-decoration: none;
+.list .link:hover,
+.list .link:focus,
+.list .link:active {color: var(--pressed-state);}
+
+.list {
+    list-style: none;
 }
 
 body {
