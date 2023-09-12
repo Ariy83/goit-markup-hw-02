@@ -8,85 +8,102 @@
     --white-background: #FFFFFF;
     --text: #434455;
     --accent: #E7E9FC;
-    
-}
-body {
-    font-family: var(--primary-font);
-    color: var(--dark);
-    background-color: var(--white-background);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    word-wrap: break-word;
 }
 
-.top-line {width: 100%; height: 100%; background: white; border-bottom: 0.50px #E7E9FC solid}
-.link-header {
-    color: var(--dark);
-  font-weight: 500;
-}
-.info-header {
-    color: var(--text);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    text-decoration: none;
-}
 .logo {
     color: var(--primary-brand);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 1,67;
+    line-height: 1.17;
     letter-spacing: 0.54px;
+}
+nav .menu .link {
+    font-weight: 500;
+    list-style: none;
     text-decoration: none;
 }
-section h2 {color: var(--white-background);}
+.contacts-header .mail-tel .link {
+    color: var(--text);
+    font-style: normal;
+    list-style: none;
+}
+
+.hero {background-color: var(--dark)}
+.main-title {
+    color: var(--white-background);
+    font-size: 56px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    word-wrap: break-word;
+}
+.hero-btn {
+    background-color: var(--primary-brand);
+    color: var(--white-background);
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
+background-color: var(--pressed-state);
+}
+
+.hide {color: var(--white-background);}
+
+.feature-name {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.40px;
+}
+.name-what {
+    color: var(--dark);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+}
 
 .filter-btn {
     color: var(--primary-brand);
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background: var(--light);
-    border-radius: 4px;
-    border: 0.50px var(--accent) solid;
+    background-color: var(--light);
     justify-content: center;
-    align-items: center;
-    display: inline-flex;
     cursor: pointer;
     }
 .filter-btn:hover, .filter-btn:focus, .filter-btn:active {
-    background: var(--pressed-state);
-    color: var(--light);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border: 0.50px var(--pressed-state) solid;
+    background-color: var(--pressed-state);
+    color: var(--white-background);
 }
 
+.team-cards {background-color: var(--light);}
 .card-name {
     color: var(--dark);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.40px;
 }
-
 .card-text {color: var(--text);}
-nav a .studio {
+.team-list {background-color: var(--white-background);}
+
+nav .studio {
     color: var(--dark);
 }
-footer a .studio {
+footer .studio {
     color: var(--light);
 }
-footer p {
-    width: 274px;
+.bottom-text {
     color: var(--light);
 }
-footer {width: 100%;
+.bottom {width: 100%;
     height: 312px;
     background: var(--dark)}
 
@@ -96,11 +113,22 @@ footer {width: 100%;
             color: var(--pressed-state)
         }
 
-        ul,
-        ol {
-            list-style-type: none;
-        }
-    
-        ul a {
-            text-decoration: none;
-        }
+ul, ol {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--text);
+    background-color: var(--white-background);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
